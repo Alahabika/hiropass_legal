@@ -11,21 +11,29 @@
 
 <header>
     <div class="wrap">
-        <a class="brand" href="./" aria-label="HIROPASS トップページ">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="HIROPASS トップページ">
             HIROPASS
         </a>
     </div>
 </header>
 
-<main class="wrap legal">
+<main class="wrap{% unless page.home %} legal{% endunless %}">
     {{ content }}
 </main>
 
 <footer>
     <div class="wrap">
-        <a class="contact" href="./privacy.html">
+        {% if page.home %}
+        <p>お問い合わせ：
+            <a class="contact" href="mailto:hiropass27@gmail.com">
+                hiropass27@gmail.com
+            </a>
+        </p>
+        {% else %}
+        <a class="contact" href="{{ '/privacy.html' | relative_url }}">
             お問い合わせ先（プライバシーポリシー）
         </a>
+        {% endif %}
         <p>運営：hiropass開発チーム</p>
         <p>
             hiropassは学生有志が開発・運営する非公式サービスであり、<br>
