@@ -1,6 +1,6 @@
 ---
 layout: default
-title: hiropass プライバシーポリシー
+title: プライバシーポリシー
 lang: ja
 ---
 

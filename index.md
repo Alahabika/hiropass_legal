@@ -1,19 +1,64 @@
----
-layout: default
-title: hiropass 利用規約・プライバシーポリシー
-lang: ja
----
 
-# hiropass 利用規約・プライバシーポリシー
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HIROPASS | 利用規約・プライバシーポリシー</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
 
-大学生活支援アプリ「hiropass」に関する利用規約およびプライバシーポリシーをご案内します。
+<header>
+    <div class="wrap">
+        <a class="brand" href="./" aria-label="HIROPASS トップページ">
+            HIROPASS
+        </a>
+    </div>
+</header>
 
-- [利用規約](./terms.html)
-- [プライバシーポリシー](./privacy.html)
+<main class="wrap">
+    <h1>利用規約・プライバシー</h1>
+    <p class="intro">
+        hiropassを安心してご利用いただくために。
+    </p>
 
-## お問い合わせ
+    <nav class="links" aria-label="規約とポリシー">
+        <a class="link" href="./terms.html">
+            <span>
+                <strong>利用規約</strong>
+                <small lang="en">Terms of Service</small>
+            </span>
+            <span class="arrow" aria-hidden="true"></span>
+        </a>
 
-運営者：hiropass開発チーム  
-メールアドレス：hiropass27@gmail.com
+        <a class="link" href="./privacy.html">
+            <span>
+                <strong>プライバシーポリシー</strong>
+                <small lang="en">Privacy Policy</small>
+            </span>
+            <span class="arrow" aria-hidden="true"></span>
+        </a>
+    </nav>
+</main>
 
-hiropassは学生有志が開発・運営する非公式サービスであり、広島大学が公式に提供・運営するものではありません。
+<footer>
+    <div class="wrap">
+        <p>お問い合わせ：
+            <a class="contact" href="mailto:YOUR_EMAIL">
+                hiropass27@gmail.com
+            </a>
+        </p>
+        <p>運営：hiropass開発チーム</p>
+        <p>
+            hiropassは学生有志が開発・運営する非公式サービスであり、<br>
+            広島大学が公式に提供・運営するものではありません。
+        </p>
+        <p class="copyright">
+            © 2026 hiropass Development Team
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

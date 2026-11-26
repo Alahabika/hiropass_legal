@@ -1,6 +1,6 @@
 ---
 layout: default
-title: hiropass 利用規約
+title: 利用規約
 lang: ja
 ---
 

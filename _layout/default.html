@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+
+<header>
+    <div class="wrap">
+        <a class="brand" href="./" aria-label="HIROPASS トップページ">
+            HIROPASS
+        </a>
+    </div>
+</header>
+
+<main class="wrap legal">
+    {{ content }}
+</main>
+
+<footer>
+    <div class="wrap">
+        <a class="contact" href="./privacy.html">
+            お問い合わせ先（プライバシーポリシー）
+        </a>
+        <p>運営：hiropass開発チーム</p>
+        <p>
+            hiropassは学生有志が開発・運営する非公式サービスであり、<br>
+            広島大学が公式に提供・運営するものではありません。
+        </p>
+        <p class="copyright">
+            © 2026 hiropass Development Team
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
