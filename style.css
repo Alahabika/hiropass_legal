@@ -57,7 +57,7 @@ header {
 /* メインコンテンツ */
 
 main {
-    padding: 72px 0 64px;
+    padding: 32px 0 64px;
 }
 
 h1 {
@@ -204,7 +204,7 @@ footer p {
     }
 
     main {
-        padding: 48px 0;
+        padding: 24px 0 48px;
     }
 
     .link {
